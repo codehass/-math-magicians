@@ -1,6 +1,6 @@
 import React from 'react';
 
-export class Calculator extends React.Component {
+class Calculator extends React.Component {
   constructor(props) {
     super(props);
     this.state = {};
