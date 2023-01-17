@@ -17,6 +17,7 @@ const Calculator = () => {
 
   return (
     <div className="app">
+      <p>Lets do some math!</p>
       <div className="calc">
         <div className="screen">
           <p>

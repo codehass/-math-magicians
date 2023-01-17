@@ -7,16 +7,13 @@ import './index.css';
 
 function App() {
   return (
-    // <div className="app">
-    //   <Calculator />
-    // </div>
     <>
       <nav className="nav-bar">
         <div className="logo"> Math Magicians</div>
         <ul>
           <li>
             {' '}
-            <Link to="/"> Home</Link>
+            <Link to="/-math-magicians/"> Home</Link>
             {' '}
           </li>
           <li>
@@ -32,7 +29,7 @@ function App() {
         </ul>
       </nav>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/-math-magicians/" element={<Home />} />
         <Route path="/quote" element={<Quotes />} />
         <Route path="/calculator" element={<Calculator />} />
       </Routes>
