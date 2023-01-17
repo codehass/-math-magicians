@@ -7,7 +7,7 @@ body {
 }
 
 .app {
-  min-height: 100vh;
+  min-height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -44,4 +44,51 @@ body {
 
 .oper {
   background-color: orange;
+}
+
+.logo {
+  color: red;
+  font-size: 24px;
+  font-family: bold;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  font-size: 18px;
+}
+
+.nav-bar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.nav-bar ul li {
+  color: black;
+  font-size: 16px;
+}
+
+.home-page {
+  width: 80%;
+  margin: 40px auto;
+}
+
+.home-page p {
+  font-size: 20px;
+  padding-left: 15px;
+}
+
+.quote {
+  min-height: 80vh;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
