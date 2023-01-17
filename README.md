@@ -114,7 +114,7 @@ Math magecians is a sample web application where we can performs arithmetic oper
 
 <!-- > Add a link to your deployed project. -->
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link](https://codehass.github.io/-math-magicians/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
